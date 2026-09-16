@@ -39,7 +39,7 @@ jobs:
       # Nota: Si tu repositorio NO es un dominio personalizado y se sirve desde subdominio (ej: usuario.github.io/nombre-repo),
       # la opción --base-href es crucial para que los recursos estáticos carguen correctamente.
       - name: Build Web
-        run: flutter build web --release --base-href "/${{ github.event.repository.name }}/"
+        run: flutter build web --release --base-href "/peter_parker8/"
 
       # 6. Desplegar en la rama gh-pages
       - name: Deploy to GitHub Pages
